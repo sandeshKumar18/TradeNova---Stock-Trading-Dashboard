@@ -19,7 +19,7 @@ const Menu = () => {
 
   return (
     <div className="menu-container">
-      <img src="logo.png" style={{ width: "50px" }} />
+      <img src="logo.png" alt="img" style={{ width: "50px" }} />
       <div className="menus">
         <ul>
           <li>
@@ -33,6 +33,7 @@ const Menu = () => {
               </p>
             </Link>
           </li>
+
           <li>
             <Link
               style={{ textDecoration: "none" }}
@@ -44,6 +45,7 @@ const Menu = () => {
               </p>
             </Link>
           </li>
+
           <li>
             <Link
               style={{ textDecoration: "none" }}
@@ -55,6 +57,7 @@ const Menu = () => {
               </p>
             </Link>
           </li>
+
           <li>
             <Link
               style={{ textDecoration: "none" }}
@@ -66,6 +69,7 @@ const Menu = () => {
               </p>
             </Link>
           </li>
+
           <li>
             <Link
               style={{ textDecoration: "none" }}
@@ -77,6 +81,7 @@ const Menu = () => {
               </p>
             </Link>
           </li>
+
           <li>
             <Link
               style={{ textDecoration: "none" }}
@@ -88,12 +93,14 @@ const Menu = () => {
               </p>
             </Link>
           </li>
+
         </ul>
         <hr />
         <div className="profile" onClick={handleProfileClick}>
           <div className="avatar">ZU</div>
           <p className="username">USERID</p>
         </div>
+        
       </div>
     </div>
   );
