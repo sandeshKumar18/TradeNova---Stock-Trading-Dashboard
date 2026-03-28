@@ -5,7 +5,7 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT;
 const url = process.env.MONGO_URL;
 
 
